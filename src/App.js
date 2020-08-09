@@ -1,21 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoApp from './Components/Todo/TodoApp'
 
 function App() {
   return (
     <div className="App">
-      My Hello World
-      <First></First>
+      <TodoApp/>  
     </div> 
   ); 
 } 
-function First() {
-  return(
-  <div className="First">
-  My    
-  </div>
-  );
-}
 
 export default App;
