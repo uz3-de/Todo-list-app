@@ -14,7 +14,7 @@ class LoginComponenet extends Component{
     render(){
         return (
             <div>
-                User Name: <input type="text" name="useame"/>
+                User Name: <input type="text" name="qwer"/>
                 Password:  <input type="password" name="password"/> 
                 <button>Login</button> 
             </div>    
